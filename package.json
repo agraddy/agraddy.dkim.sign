@@ -10,13 +10,16 @@
     "test": "node ./test"
   },
   "repository": {
-	  "type": "git",
-	  "url": "git://github.com/agraddy/agraddy.dkim.sign.git"
+    "type": "git",
+    "url": "git://github.com/agraddy/agraddy.dkim.sign.git"
   },
   "bugs": {
-	  "url": "https://github.com/agraddy/agraddy.dkim.sign/issues"
+    "url": "https://github.com/agraddy/agraddy.dkim.sign/issues"
   },
   "devDependencies": {
-	  "agraddy.test.tap": "^0.4.0"
+    "agraddy.test.tap": "^0.4.0"
+  },
+  "dependencies": {
+    "agraddy.parse.email": "^0.6.0"
   }
 }
